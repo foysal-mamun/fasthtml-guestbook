@@ -129,7 +129,7 @@ def render_content():
 @rt("/")
 def get():
     return Titled(
-        "Guestbook 📖",
+        "FastHTML Guestbook 📖",
         render_content()
     )
     
